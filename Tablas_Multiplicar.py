@@ -1,15 +1,15 @@
 class multiplicar:
-    def imprimir_tabla(self):
+    def tabla(self):
      
         for i in range (1,10):
-            LIMITE = 10
-            contador = 1
+            n = 10
+            num = 1
             print(" ")
-            while contador <= LIMITE:
-                resultado = contador * i
-                print("{} x {} = {}".format(i, contador, resultado))
-                contador = contador + 1
+            while num <= n:
+                z = num * i
+                print("{} x {} = {}".format(i, num, z))
+                num = num + 1
             
     
 tabla=multiplicar()
-tabla.imprimir_tabla()
+tabla.tabla()
