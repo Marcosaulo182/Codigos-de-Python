@@ -1,5 +1,4 @@
-class multiplicar:
-    def tabla(self):
+def tabla():
      
         for i in range (1,10):
             n = 10
@@ -8,8 +7,5 @@ class multiplicar:
             while num <= n:
                 z = num * i
                 print("{} x {} = {}".format(i, num, z))
-                num = num + 1
-            
-    
-tabla=multiplicar()
-tabla.tabla()
+                num = num + z
+tabla()
