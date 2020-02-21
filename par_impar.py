@@ -1,5 +1,4 @@
-class Impar:
-    def num(self):
+def num():
         num = input("Agregue un número: ")
         
         num = int(num)
@@ -9,7 +8,4 @@ class Impar:
             print ("Es par")
         else:
             print ("Es impar")
-
-   
-par=Impar()
-par.num()
+num()
