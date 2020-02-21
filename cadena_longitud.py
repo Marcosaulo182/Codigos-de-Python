@@ -1,5 +1,4 @@
-class long:
-  def longitud(self):
+def longitud():
     letra=input("Ingrese una palabra: ")
     num=letra.lower()
     num=num[0].upper()+num[1:]
@@ -7,8 +6,4 @@ class long:
     for i in letra:
       numletra+=1
     print('Su palabra ' , num , 'tiene',numletra,'letras')
-
-  
-
-cadena=long()
-cadena.longitud()
+longitud()
